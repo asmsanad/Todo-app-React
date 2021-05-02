@@ -14,7 +14,7 @@ function App() {
       todo.text = document.getElementById('gettext').value;
       setList([...list,todo]);
       setid(id+1);
-      document.getElementById('gettext').value = " ";
+      document.getElementById('gettext').value = null;
     }else{
       alert("Please Type Something !!!");
     }
